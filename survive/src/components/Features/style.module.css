@@ -1,0 +1,28 @@
+.features{
+    background-image: url(../../static/bgimage3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index:1;
+    height: 585px;
+    position:relative;
+    color: #fff;
+    
+}
+.features::before{
+    content:"";
+  position: absolute;  
+  background: rgb(2,0,36);
+background: radial-gradient(circle, rgba(2,0,36,0.5634628851540616) 0%, rgba(11,11,9,1) 100%); 
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index:-1;
+}
+.features__wrapper{
+    position: relative;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
